@@ -1,5 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    height: 600px;
+    width: 800px;
+    background-color: #e83b3b;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 65%;
+    background-color: #dad4c9;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#erase{
+    margin-left: 10px;
+}
+
+#clear {
+    margin-right: 10px;
+}
+
+button {
+    width: 64px;
+    height: 64px;
+    border-radius: 60%;
+    cursor: pointer;
+    border: none;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 16px;
+    color: #fbb954;
+}
+
+#logo {
+    font-family: 'Playwrite HU';
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#title1,
+#title2 {
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.options {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options #option-1,
+.options #option-2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #211e20;
 }
